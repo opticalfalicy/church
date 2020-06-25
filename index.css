@@ -1,0 +1,31 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/chu.JPG');
+    background-size: cover;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/chu.JPG');
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    font-size: 50px;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item{
+
+}
