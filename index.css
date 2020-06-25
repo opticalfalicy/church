@@ -8,7 +8,7 @@ body{
 .main{
     width: 100vw;
     height: 100vh;
-    background-image: url('/chu.JPG');
+    background-image: url('./chu.JPG');
     background-size: cover;
 }
 
