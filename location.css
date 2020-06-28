@@ -1,7 +1,7 @@
-body{
+/* body{
     background-size: cover;
     filter: grayscale(60%);
-}
+} */
 
 
 .main-landing{
@@ -35,11 +35,11 @@ body{
     display: flex;
     flex-direction: row;
     width: 70vw;
-    font-size: 50px;
+    font-size: 8vw;
     color: black;
     justify-content: space-evenly;
-    background: black
-    opacity: 1;
+    background: black;
+    /* opacity: 1; */
 }
 
 .nav a{
@@ -56,4 +56,9 @@ body{
     height: 65%;
     width: 80%;
     text-align: center;
+}
+
+iframe{
+    width: 40vw;
+    height: 40vh;
 }

@@ -3,6 +3,7 @@ body{
     height: 100vh;
     background-image: url('./chu.JPG');
     background-size: cover;
+    background-repeat: no-repeat;
     filter: grayscale(60%);
     display: flex;
     justify-content: center;
