@@ -1,7 +1,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url('/chu.JPG');
+    background-image: url('./chu.JPG');
     background-size: cover;
     filter: grayscale(60%);
     display: flex;
@@ -10,56 +10,3 @@ body{
 }
 
 
-.main-landing{
-    width: 70vw;
-    height: 70vh;
-    /* background-image: url('/chu.JPG');
-    background-size: cover; */
-    background: black;
-    opacity: .9;
-    background-size: 5px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-}
-
-.jumbotron{
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 7rem;
-    color: white;
-    opacity: 1;
-    text-decoration: double;
-    text-decoration-thickness: 90%;
-    text-decoration-color: black;
-}
-.nav{
-    display: flex;
-    flex-direction: row;
-    width: 70vw;
-    font-size: 50px;
-    color: black;
-    justify-content: space-evenly;
-    background: black
-    opacity: 1;
-}
-
-.nav a{
-    text-decoration: none;
-    color: peachpuff;
-}
-
-/* .nav-item{
-
-} */
-
-.vod{
-    color: gold;
-    height: 20%;
-    width: 80%;
-    text-align: center;
-}
