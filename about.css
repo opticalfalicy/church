@@ -67,5 +67,31 @@ body{
     align-items: center;
 }
 
+@media screen and (min-width: 760px){
+    .banner{
+        background-position-y: -45vw;
+    }
+    
+    .nav-title{
+        font-size: 4.5vw;
+    }
+}
 
+@media screen and (min-width: 1900px){
+    .banner{
+        background-position-y: -52vw;
+    }
+    
+    .nav-title{
+        font-size: 2.5vw;
+        width: 35%;
+    }
+
+    .nav-links{
+        font-size: 2vw;
+    }
+    .main-home{
+        height: 70%;
+    }
+}
 
