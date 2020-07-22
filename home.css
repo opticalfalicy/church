@@ -34,7 +34,7 @@ body{
 
 .nav-title{
     text-align: center;
-    font-size: 5vw;
+    font-size: 1.4em;
     height: 100%;
     display: flex;
     align-items: center;
@@ -42,65 +42,181 @@ body{
     color: rgb(250, 250, 250);
     border-right: 2px solid gold;
     /* border-left: 2px solid gold; */
-    width: 48%
+    width: 48vw
 }
 
 .nav-links{
-    font-size: 5vw;
+    font-size: 1.3em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50%;
+    width: 50vw;
 }
 .nav-links a{
     text-decoration: none;
     color: peachpuff;
 }
 
+.main-info{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main-home{
     /* width: 90%; */
-    height: 100vh;
-
-    display: flex;
-    justify-content: space-evenly;
-    
-    flex-direction: column;
-    /* background: gray; */
-    align-items: center;
-}
-
-.main-calendar{
-    width: 90%;
     height: 65vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: rgb(110, 67, 67); */
+
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    
+    /* flex-direction: column; */
+    /* background: gray; */
+    /* align-items: center; */
 }
 
-.calendar{
-    height: 65vw;
-    width: 90%;
-    /* display: lex; */
+.main-title{
+  font-size: .9em;
 }
-
-/* .vod{
-    height: 50%;
-    width: 80%;
-} */
 
 .main-text{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-       height: 110vw;    
-    width: 90%;
+    height: 65vh;    
+    width: 100%;
     align-items: center;
     text-align: center;
+    font-size: 7vw;
     /* background: rgb(73, 73, 73); */
 
 }
-.vod iframe{
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 20vh;
+}
+
+.text-hours{
+  flex: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  width:100%;
+  font-size: .6em;
+  height: 100%;
+  background-color: rgb(85, 68, 52);
+  /* height: 30%; */
+}
+
+.main-footer{
+  font-size: .9em;
+  width: 90%;
+  /* height: 50%; */
+}
+
+@media screen and (min-width: 500px){
+  .banner{
+    background-position-y: -250px;
+  }
+  .nav-title{
+    font-size: 1.7em;
+  }
+  .nav-links{
+    font-size: 1.6em;
+  }
+  /* .main-title{
+    font-size: 3rem;
+  } */
+  .text{
+    height: 25vh;
+  }
+  /* .text-hours{
+    display: flex;
+    justify-content: space-around;
+    font-size: 4vw;
+    height: 90%;
+  } */
+  .main-footer{
+    width: 90%;
+    font-size: 3.6vw;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .banner{
+    background-position-y: -250px;
+  }
+  .nav-title{
+    /* font-size: 3.8vw; */
+  }
+  .nav-links{
+    /* font-size: 3.2vw; */
+  }
+  /* .main-title{
+    font-size: 3rem;
+  } */
+  .text{
+    height: 25vh;
+  }
+  /* .text-hours{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    height: 90%;
+  } */
+  .main-footer{
+    /* width: 70%; */
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .nav-title{
+    /* font-size: 2.5vw; */
+  }
+  .nav-links{
+    /* font-size: 2vw; */
+  }
+  .main-title{
+    font-size:.6em;
+  }
+  .text-hours{
+    font-size: .4em;
+  }
+  .main-footer{
+    font-size: 2.5vw;
+  }
+
+}
+@media screen and (min-width: 1500px){
+  .nav-title{
+    /* font-size: 2.5vw; */
+  }
+  .nav-links{
+    /* font-size: 2vw; */
+  }
+  .main-title{
+    font-size:.45em;
+  }
+  .text-hours{
+    font-size: .25em;
+  }
+  .main-footer{
+    font-size: 1.6vw;
+  }
+
+}
+
+/* .vod iframe{
     width: 85%;
     height: 100%
 }
@@ -108,10 +224,10 @@ body{
 .main-map{
     height: 100%;
     width: 10%;
-}
+} */
 
 
-header {
+/* header {
     display: flex;
     align-items: center;
     font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
@@ -169,174 +285,6 @@ header {
   ul.day-grid li:nth-child(35) {
     background-color: #fff;
   }
+
+   */
   
-  @media all and (max-width: 800px) {
-    ul {
-      grid-gap: .25em;
-    }
-    
-    ul.weekdays li {
-      font-size: 0;
-    }
-    
-    ul.weekdays > li abbr:after {
-        content: attr(title);
-        font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
-      text-align: center;
-      }
-  }
-
-
-
-
-@media screen and (min-width: 760px){
-    .banner{
-        background-position-y: -45vw;
-    }
-    
-    .nav-title{
-        font-size: 4.5vw;
-    }
-
-    .main-home{
-        width: 100%;
-        height: 65vh;
-    
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        /* align-items: center; */
-    }
-    
-    .main-calendar{
-        width: 50%;
-        height: 65vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .calendar{
-        height: 65vw;
-        /* display: lex; */
-    }
-    
-    /* .vod{
-        height: 50%;
-        width: 80%;
-    } */
-    
-    .main-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-           height: 110vw;    
-        width: 45%;
-        align-items: center;
-        text-align: center;
-    }
-    .vod iframe{
-        width: 100%;
-        height: 100%
-    }
-    
-    .main-map{
-        height: 100%;
-        width: 50%;
-    }
-    
-    
-    header {
-        display: flex;
-        align-items: center;
-        font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
-        justify-content: center;
-        margin-bottom: 2em;
-        background: #000;
-        color: #fff;
-        min-height: 10vh;
-        text-align: center;
-      }
-      
-      ul {
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        grid-gap: 1em;
-        margin: 0 auto;
-        max-width: 64em;
-        padding: 0;
-      }
-      
-      li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style: none;
-        margin-left: 0;
-        font-size: calc(16px + (21 - 16) * ((100vw - 300px) / (1600 - 300)));
-      }
-      
-      ul.weekdays {
-        margin-bottom: 1em;
-      }
-      
-      ul.weekdays li {
-        height: 4vw;
-      }
-      
-      ul.day-grid li {
-        background-color: #eaeaea;
-        border: 1px solid #eaeaea;
-        height: 12vw;
-        max-height: 125px;
-      }
-      
-      ul.weekdays abbr[title] {
-        border: none;
-        font-weight: 800;
-        text-decoration: none;
-      }
-      
-      ul.day-grid li:nth-child(1),
-      ul.day-grid li:nth-child(2),
-      ul.day-grid li:nth-child(3),
-      ul.day-grid li:nth-child(34),
-      ul.day-grid li:nth-child(35) {
-        background-color: #fff;
-      }
-      
-      @media all and (max-width: 800px) {
-        ul {
-          grid-gap: .25em;
-        }
-        
-        ul.weekdays li {
-          font-size: 0;
-        }
-        
-        ul.weekdays > li abbr:after {
-            content: attr(title);
-            font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
-          text-align: center;
-          }
-      }
-    
-}
-
-@media screen and (min-width: 1900px){
-    .banner{
-        background-position-y: -52vw;
-    }
-    
-    .nav-title{
-        font-size: 2.5vw;
-        width: 35%;
-    }
-
-    .nav-links{
-        font-size: 2vw;
-    }
-    .main-home{
-        height: 70%;
-    }
-}

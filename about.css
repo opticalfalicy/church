@@ -58,8 +58,8 @@ body{
 }
 
 .main-home{
-    width: 70vw;
-    height: 100%;
+    width: 100%;
+    height: 56vw;
 
     display: flex;
     justify-content: space-evenly;
@@ -67,13 +67,84 @@ body{
     align-items: center;
 }
 
+.main-info{
+    width: 100%;
+}
+
+.main-text{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 4.8vw;
+}
+
+.main-table{
+    width: 100%;
+    height: 60vw;
+}
+
+.main-table tr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+
+    /* text-align: center; */
+    /* flex-direction: column; */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+.main-table tr th{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: white; */
+}
+
+.table-pri{
+    background-color: rgb(85, 68, 52);
+    color: white;
+}
+
+.main-footer{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+@media screen and (min-height: 800px) and (min-width:300px){
+    .main-table{
+      height: 85vw;
+    }
+  }
+
 @media screen and (min-width: 760px){
     .banner{
         background-position-y: -45vw;
     }
     
     .nav-title{
-        font-size: 4.5vw;
+        font-size: 3.8vw;
+    }
+
+    .nav-links{
+        font-size: 4vw;
+    }
+
+    .main-text{
+        font-size: 4vw;
+    }
+
+    .main-table tbody tr th{
+        font-size: 3.5vw;
     }
 }
 
