@@ -28,7 +28,7 @@ body{
     /* color: black; */
     justify-content: space-evenly;
     align-items: center;
-    background: rgb(85, 68, 52);
+    background: #af1b3f;
     opacity: 1;
 }
 
@@ -40,7 +40,7 @@ body{
     align-items: center;
     justify-content: center;
     color: rgb(250, 250, 250);
-    border-right: 2px solid gold;
+    border-right: 2px solid 		#493324;
     /* border-left: 2px solid gold; */
     width: 48vw
 }
@@ -54,7 +54,7 @@ body{
 }
 .nav-links a{
     text-decoration: none;
-    color: peachpuff;
+    color: 	#efc69b;
 }
 
 .main-info{
@@ -69,6 +69,10 @@ body{
 .main-home{
     /* width: 90%; */
     height: 65vh;
+    background: 		#efc69b;
+    display: flex;
+    align-items: flex-start;
+    /* flex-direction: column; */
 
     /* display: flex; */
     /* justify-content: space-evenly; */
@@ -113,13 +117,14 @@ body{
   width:100%;
   font-size: .6em;
   height: 100%;
-  background-color: rgb(85, 68, 52);
+  /* background-color: #473144; */
   /* height: 30%; */
 }
 
 .main-footer{
   font-size: .9em;
   width: 90%;
+  
   /* height: 50%; */
 }
 
@@ -200,41 +205,76 @@ body{
 @media screen and (min-width: 1500px){
   .nav-title{
     /* font-size: 2.5vw; */
+    font-family: Georgia, serif;
   }
   .nav-links{
     /* font-size: 2vw; */
+    font-family: Georgia, serif;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   }
 
   .banner{
     background-position-y: -1000px;
-    height: 40vh;
+    height: 35vh;
   }
   .main-home{
     flex-direction: column;
+    width: initial;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 55vh;
+    background: 	#493324;
+    /* align-items: ; */
+    /* justify-content: flex-start; */
     /* height: 20vh; */
   }
   .main-text{
-    flex-direction: row;
-    height: 30vh;
+    /* flex-direction: row; */
+    height: 20%;
+    width: 50%;
+    color: #efc69b;
 
   }
   .main-title{
-    font-size:.45em;
-    width: 50%;
+    font-size:.3em;
+    width: 80%;
   }
-  .main-info{width: 50%;}
+  .main-info{width: 50%; 
+    height: 50%;
+  }
   .text-hours{
-    font-size: .25em;
+    font-size: 1.55em;
+    /* color: #efc69b; */
   }
+  .text{height: 100%;}
   .main-footer{
-    background-color: rgb(85, 68, 52);
+    color: #efc69b;
+    /* background-color: rgb(85, 68, 52); */
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 40%;
+    width: 50%;
+    height: 30%;
     text-align: center;
     justify-content: center;
-    font-size: 1.6vw;
+    font-size: 1.5em;
+  }
+  .vod{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  iframe{
+    width: 90%;
+    height: 90%;
   }
 
 }
