@@ -30,6 +30,7 @@ body{
     align-items: center;
     background: #493324;
     opacity: 1;
+    font-family: Georgia, serif;
 }
 
 .nav-title{
@@ -42,7 +43,8 @@ body{
     color: rgb(250, 250, 250);
     border-right: 2px solid 			#efc69b;
     /* border-left: 2px solid gold; */
-    width: 48vw
+    width: 50%;
+    /* width: 48vw; */
 }
 
 .nav-links{
@@ -236,14 +238,18 @@ body{
   }
   .main-text{
     /* flex-direction: row; */
-    height: 20%;
+    height: 50%;
     width: 50%;
-    color: #efc69b;
+    color: #493324;
+    background-color: #efc69b;
 
   }
   .main-title{
-    font-size:.3em;
+    font-size:.4em;
     width: 80%;
+    color: #493324;
+    background-color: #efc69b;
+    /* color: #efc69b; */
   }
   .main-info{width: 50%; 
     height: 50%;
@@ -255,17 +261,19 @@ body{
   .text{height: 100%;}
   .main-footer{
     color: #efc69b;
-    /* background-color: rgb(85, 68, 52); */
+    /* color-color: rgb(85, 68, 52); */
     display: flex;
     align-items: center;
     width: 50%;
-    height: 30%;
+    height: 50%;
     text-align: center;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 2em;
+    color: #493324;
+    background-color: #efc69b;
   }
   .vod{
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -273,8 +281,8 @@ body{
   }
 
   iframe{
-    width: 90%;
-    height: 90%;
+    width: 75%;
+    height: 75%;
   }
 
 }
