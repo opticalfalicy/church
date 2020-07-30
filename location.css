@@ -2,6 +2,7 @@ body{
     justify-content: initial;
     /* display: flex;
     justify-content: space-evenly; */
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .banner{
@@ -26,7 +27,7 @@ body{
     align-items: center;
     background: #493324;
     opacity: 1;
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
 }
 
 .nav-title{
@@ -151,17 +152,26 @@ iframe{
 @media screen and (min-width: 1900px){
     .banner{
         background-position-y: -52vw;
+        height: 40vh;
     }
     
     .nav-title{
-        /* font-size: 2.5vw; */
-        /* width: 35%; */
-    }
-
+        font-size: 2em;
+        /* font-family: Georgia, serif; */
+      }
     .nav-links{
-        /* font-size: 2vw; */
+      font-size: 3.5
+      em;
+      text-decoration: underline;
+      /* font-family: Georgia, serif; */
     }
-    .main-home{
-        height: 70%;
+    .nav-links a:hover{
+      /* font-size: 3em;
+      text-decoration: underline;
+      font-family: Georgia, serif; */
+      color: #af1b3f;
+    }
+    .main-location{
+        height: 50vh;
     }
 }

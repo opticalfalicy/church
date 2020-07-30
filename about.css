@@ -6,6 +6,7 @@ body{
     /* background-size: contain; */
     /* background-size; */   
     justify-content: initial; 
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .banner{
@@ -30,7 +31,7 @@ body{
     align-items: center;
     background: #493324;
     opacity: 1;
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
 }
 
 .nav-title{
@@ -43,7 +44,8 @@ body{
     color: rgb(250, 250, 250);
     border-right: 2px solid 			#efc69b;
     /* border-left: 2px solid gold; */
-    width: 48vw
+    width: 50%;
+    /* width: 48vw; */
 }
 
 .nav-links{
@@ -57,7 +59,6 @@ body{
     text-decoration: none;
     color: 	#efc69b;
 }
-
 .main-home{
     width: 100%;
     height: 56vw;
@@ -66,6 +67,7 @@ body{
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    background: #efc69b;
 }
 
 
@@ -76,9 +78,11 @@ body{
     text-align: center;
     justify-content: center;
     font-size: 4.8vw;
+    color: #af1b3f;
 }
 
 .main-table{
+    /* border-top: 30px solid rgb(85, 68, 52); */
     width: 100%;
     height: 60vw;
 }
@@ -110,7 +114,14 @@ body{
 
 .table-pri{
     background-color: rgb(85, 68, 52);
-    color: white;
+    /* color: 	#5f758e; */
+    color: #ec2c5b;
+}
+
+.table-sec{
+    background: #efc69b;
+    /* color: #af1b3f; */
+    color: rgb(85, 68, 52);;
 }
 
 .main-footer{
@@ -149,19 +160,51 @@ body{
 
 @media screen and (min-width: 1900px){
     .banner{
-        background-position-y: -52vw;
+        background-position-y: -1000px;
+        height: 40vh;
+
     }
     
     .nav-title{
-        font-size: 2.5vw;
-        width: 35%;
+        font-size: 2em;
+        /* width: 35%; */
     }
 
     .nav-links{
+        font-size: 1.8em;
+        text-decoration: underline;
+        font-family: Georgia, serif;
+      }
+
+      .nav-links{
+        font-size: 1.8em;
+        text-decoration: underline;
+        font-family: Georgia, serif;
+      }
+      .nav-links a:hover{
+        /* font-size: 3em;
+        text-decoration: underline;
+        font-family: Georgia, serif; */
+        color: #af1b3f;
+      }
+    .main-home{
+        height: 50vh;
+    }
+    .main-text{
+        font-size: 3em;
+    }
+    .main-table{
+        height: 40vh;
+    }
+    .main-table tbody tr th {
         font-size: 2vw;
     }
-    .main-home{
-        height: 70%;
+
+    .table-pri{
+        font-weight: 900;
+    }
+    .table-sec{
+        font-weight: 900;
     }
 }
 
