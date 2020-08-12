@@ -7,7 +7,7 @@ body{
 
 .banner{
     width: 100vw;
-    height: 35vh;
+    height: 25vh;
     background-image: url('./c.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body{
 
 .nav-title{
     text-align: center;
-    font-size: 1.4em;
+    font-size: .98em;
     height: 100%;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@ body{
 }
 
 .nav-links{
-    font-size: 1.3em;
+    font-size: 1.1em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -58,17 +58,20 @@ body{
 .main-location{
     /* width: 100vw; */
     /* width: 50%; */
-    height: 55vh;
+    height: 65vh;
 
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    /* flex-direction: row; */
+    flex-direction: column;
     align-items: center;
     background-color: rgb(85, 68, 52);
 }
 
 .text{
     height: 100%;
+    height: 40vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -78,10 +81,10 @@ body{
 .text-info{
     /* height: 50%; */
     width: 100%;
-    height: 40%;
+    height: 60%;
     color: #493324;
     background-color: #efc69b;
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -97,9 +100,9 @@ body{
     justify-content: space-evenly;
     color: white;
     /* width:100%; */
-    font-size: 2em;
+    font-size: 1.1em;
     /* height: 100%; */
-    width: 50vw;
+    width: 100%;
     /* background-color: #473144; */
     height: 40%;
     color: #493324;
@@ -116,14 +119,14 @@ body{
     justify-content: center;
     color: gold;
     height: 100%;
-    width: 50vw;
+    width: 100vw;
     text-align: center;
     /* background-color: rgb(85, 68, 52); */
     background-color: rgb(85, 68, 52);
 }
 
 iframe{
-    width: 75%;
+    width: 85%;
     height: 75%;
 }
 
